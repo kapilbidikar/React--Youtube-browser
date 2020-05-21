@@ -4,7 +4,7 @@ import SearchBar from './SearchBar'
 import Youtube from '../API/Youtube'
 import VideoDetail from './VideoDetail'
 
- const KEY = "AIzaSyCr90DKfeMhHWXrPGXsHINn87TBMY8pAZo";
+ const KEY = "your-API-key";
 class App extends React.Component{
 
     state = {videos: [], selectedvideo: null}
